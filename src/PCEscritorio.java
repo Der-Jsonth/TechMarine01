@@ -32,6 +32,10 @@ public class PCEscritorio extends Computadora {
                 '}';
     }
 
+    @Override
+    public double calcularPrecioFinal() {
+        return 0;
+    }
 
 
     public PCEscritorio(String marca, String modelo, double precioBase, String tipoGabinete, boolean incluyemonitor) {
